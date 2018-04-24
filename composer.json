@@ -2,8 +2,8 @@
  "name": "dorsetdigital/silverstripe-canonical",
  "description": "Adds a simple canonical tag in Silverstripe 4",
  "type": "silverstripe-vendormodule",
- "homepage": "https://github.com/DorsetDigital/silverstripe-canonical",
- "keywords": ["silverstripe", "html", "seo", "canonical"],
+ "homepage": "https://github.com/DorsetDigital/silverstripe-element-iframe",
+ "keywords": ["silverstripe", "iframe", "elemental", "module"],
  "authors": [
   {
    "name": "Tim Burt",

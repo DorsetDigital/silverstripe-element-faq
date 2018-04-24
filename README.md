@@ -4,8 +4,8 @@ Adds an elemental content block to embed an iframe
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE.md)
 
 # Requirements
-*Silverstripe 4.x
-*Silverstripe Elemental
+* Silverstripe 4.x
+* Silverstripe Elemental
 
 # Installation
 * Install the code with `composer require dorsetdigital/silverstripe-element-iframe`

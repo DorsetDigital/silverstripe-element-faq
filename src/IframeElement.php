@@ -3,6 +3,7 @@ namespace DorsetDigital\Elements;
 
 use DNADesign\Elemental\Models\BaseElement;
 use SilverStripe\Forms\TextField;
+use SilverStripe\ORM\FieldType\DBField;
 
 
 class IframeElement extends BaseElement
@@ -26,5 +27,9 @@ class IframeElement extends BaseElement
     public function getType()
     {
         return 'Iframe block';
+    }
+    
+    public function getEmbedCode() {
+        return DBField::create_field('HTMLFragment', $this->EmbedLink);
     }
 }

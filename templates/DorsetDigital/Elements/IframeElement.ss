@@ -4,6 +4,6 @@
  <% end_if %>
  $HTML
  <div class="content-element__iframewrapper">
-  $EmbedLink
+  $EmbedCode
  </div>
 </div>

@@ -1,6 +1,6 @@
 {
  "name": "dorsetdigital/silverstripe-element-iframe",
- "description": "Adds a simple canonical tag in Silverstripe 4",
+ "description": "Adds an elemental content block to embed an iframe",
  "type": "silverstripe-vendormodule",
  "homepage": "https://github.com/DorsetDigital/silverstripe-element-iframe",
  "keywords": ["silverstripe", "iframe", "elemental", "module"],

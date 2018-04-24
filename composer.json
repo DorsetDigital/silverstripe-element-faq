@@ -18,7 +18,7 @@
  "license": "BSD-3-Clause",
  "autoload": {
   "psr-4": {
-   "DorsetDigital\\SilverStripeElementIframe\\": "src/"
+   "DorsetDigital\\Elements\\": "src/"
   }
  },
  "extra": {

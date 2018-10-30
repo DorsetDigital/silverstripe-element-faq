@@ -13,7 +13,7 @@
  "require": {
   "silverstripe/vendor-plugin": "^1.0",
   "silverstripe/cms": "^4.0",
-  "dnadesign/silverstripe-elemental": "^2.0"
+  "dnadesign/silverstripe-elemental": "^3.0"
  },
  "license": "BSD-3-Clause",
  "autoload": {

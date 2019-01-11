@@ -1,15 +1,15 @@
 {
- "name": "dorsetdigital/silverstripe-element-iframe",
- "description": "Adds an elemental content block to embed an iframe",
+ "name": "dorsetdigital/silverstripe-element-quotation",
+ "description": "Adds a simple quotation / testimonial style block",
  "type": "silverstripe-vendormodule",
- "homepage": "https://github.com/DorsetDigital/silverstripe-element-iframe",
- "keywords": ["silverstripe", "iframe", "elemental", "module"],
+ "homepage": "https://github.com/DorsetDigital/silverstripe-element-quotation",
+ "keywords": ["silverstripe", "elemental", "module", "quotation", "testimonial"],
  "authors": [
   {
    "name": "Tim Burt",
    "email": "tim@dorset-digital.net"
   }
- ], 
+ ],
  "require": {
   "silverstripe/vendor-plugin": "^1.0",
   "silverstripe/cms": "^4.0",

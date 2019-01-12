@@ -8,7 +8,7 @@ Adds a collapsing FAQ block to a page
 * Silverstripe Elemental
 
 # Installation
-* Install the code with `composer require dorsetdigital/silverstripe-element-quotation`
+* Install the code with `composer require dorsetdigital/silverstripe-element-faq`
 * Run a `dev/build?flush` to update your project
 
 # Usage

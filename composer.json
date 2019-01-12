@@ -1,9 +1,9 @@
 {
- "name": "dorsetdigital/silverstripe-element-quotation",
- "description": "Adds a simple quotation / testimonial style block",
+ "name": "dorsetdigital/silverstripe-element-faq",
+ "description": "Adds a collapsible FAQ block",
  "type": "silverstripe-vendormodule",
- "homepage": "https://github.com/DorsetDigital/silverstripe-element-quotation",
- "keywords": ["silverstripe", "elemental", "module", "quotation", "testimonial"],
+ "homepage": "https://github.com/DorsetDigital/silverstripe-element-faq",
+ "keywords": ["silverstripe", "elemental", "module", "faq"],
  "authors": [
   {
    "name": "Tim Burt",

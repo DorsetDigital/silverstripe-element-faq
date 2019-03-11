@@ -17,6 +17,7 @@ class FAQElement extends BaseElement
     private static $has_many = [
         'Questions' => FAQ::class
     ];
+    private static $inline_editable = false;
 
 
     public function getCMSFields()

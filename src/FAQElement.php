@@ -14,6 +14,7 @@ class FAQElement extends BaseElement
     private static $description = 'Adds a simple quotation/testimonial';
     private static $table_name = 'DDE_FAQBlock';
     private static $controller_class = FAQController::class;
+    private static $icon = 'font-icon-list';
     private static $has_many = [
         'Questions' => FAQ::class
     ];
@@ -32,6 +33,6 @@ class FAQElement extends BaseElement
 
     public function getType()
     {
-        return 'FAQ Block';
+        return 'FAQ';
     }
 }

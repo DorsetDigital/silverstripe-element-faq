@@ -1,7 +1,9 @@
 <?php
+
 namespace DorsetDigital\Elements;
 
 use DNADesign\Elemental\Models\BaseElement;
+use SilverStripe\Core\Config\Configurable;
 use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Forms\GridField\GridFieldConfig_RelationEditor;
 use Symbiote\GridFieldExtensions\GridFieldOrderableRows;
@@ -9,6 +11,20 @@ use Symbiote\GridFieldExtensions\GridFieldOrderableRows;
 
 class FAQElement extends BaseElement
 {
+    use Configurable;
+
+    /**
+     * @config
+     * @var bool
+     */
+    private static $add_default_css = true;
+
+    /**
+     * @config
+     * @var bool
+     */
+    private static $add_default_javascript = true;
+
     private static $singular_name = 'Quotation';
     private static $plural_name = 'Quotations';
     private static $description = 'Adds a simple quotation/testimonial';

@@ -3,7 +3,12 @@
  "description": "Adds a collapsible FAQ block",
  "type": "silverstripe-vendormodule",
  "homepage": "https://github.com/DorsetDigital/silverstripe-element-faq",
- "keywords": ["silverstripe", "elemental", "module", "faq"],
+ "keywords": [
+  "silverstripe",
+  "elemental",
+  "module",
+  "faq"
+ ],
  "authors": [
   {
    "name": "Tim Burt",
@@ -23,6 +28,9 @@
   }
  },
  "extra": {
+  "expose": [
+   "client/dist"
+  ]
  },
  "minimum-stability": "dev"
 }

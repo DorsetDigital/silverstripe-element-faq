@@ -13,4 +13,13 @@ Adds a collapsing FAQ block to a page
 
 # Usage
 Once installed, the FAQ block will be selectable as an Elemental block.
-By default, the module doesn't add any styling, it expects you to do this in your own CSS file.  It's currently designed to work with, and relies on, Bootstrap 4 
+
+The module provides minimal markup with some basic accessibility.  Default CSS and Javascript is also included for the basic functionality (expand/collapse of questions).
+
+If required the module can be instructed not to add the default CSS and Javascript by setting the following configuration variables in your site's XML:
+
+```
+DorsetDigital\Elements\FAQElement:
+  add_default_css: false
+  add_default_javascript: false
+```

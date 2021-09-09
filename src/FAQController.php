@@ -17,7 +17,7 @@ class FAQController extends ElementController
         }
 
         if (FAQElement::config()->get('add_default_css') === true) {
-            Requirements::css('dorsetdigital/silverstripe-element-faq:client/dist/javascript/faq.css');
+            Requirements::css('dorsetdigital/silverstripe-element-faq:client/dist/css/faq.css');
         }
     }
 }

@@ -12,11 +12,11 @@ class FAQController extends ElementController
     {
         parent::init();
 
-        if (FAQElement::config()->get('$add_default_javascript') === true) {
+        if (FAQElement::config()->get('add_default_javascript') === true) {
             Requirements::javascript('dorsetdigital/silverstripe-element-faq:client/dist/javascript/faq.js');
         }
 
-        if (FAQElement::config()->get('$add_default_css') === true) {
+        if (FAQElement::config()->get('add_default_css') === true) {
             Requirements::css('dorsetdigital/silverstripe-element-faq:client/dist/javascript/faq.css');
         }
     }

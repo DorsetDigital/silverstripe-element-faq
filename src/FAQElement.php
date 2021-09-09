@@ -25,9 +25,9 @@ class FAQElement extends BaseElement
      */
     private static $add_default_javascript = true;
 
-    private static $singular_name = 'Quotation';
-    private static $plural_name = 'Quotations';
-    private static $description = 'Adds a simple quotation/testimonial';
+    private static $singular_name = 'FAQ';
+    private static $plural_name = 'FAQs';
+    private static $description = 'Adds a simple FAQ block';
     private static $table_name = 'DDE_FAQBlock';
     private static $controller_class = FAQController::class;
     private static $icon = 'font-icon-list';
@@ -49,6 +49,6 @@ class FAQElement extends BaseElement
 
     public function getType()
     {
-        return 'FAQ';
+        return _t(__CLASS__ . '.BlockType', 'FAQ');
     }
 }

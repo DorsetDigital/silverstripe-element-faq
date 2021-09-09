@@ -8,6 +8,12 @@
       font-weight: 700;
       font-size: 1.2em;
       cursor: pointer;
+      padding-bottom: 5px;
     }
+  }
+
+  .faq__answer {
+    height: 0;
+    overflow: hidden;
   }
 }

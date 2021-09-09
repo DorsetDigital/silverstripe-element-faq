@@ -1,1 +1,1 @@
-"use strict";
+"use strict";document.querySelectorAll(".dorsetdigital__elements__faqelement .faq__question button").forEach(function(n){n.addEventListener("click",function(){var e=n.parentElement.nextElementSibling;e.classList.toggle("expanded");var t="false";e.classList.contains("expanded")&&(t="true"),n.setAttribute("aria-expanded",t)})});

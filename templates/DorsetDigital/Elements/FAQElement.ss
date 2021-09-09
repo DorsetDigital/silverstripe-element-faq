@@ -13,10 +13,8 @@
                     $Question
                 </button>
             </dt>
-            <dd class="faq__answer">
-                <p id="answer-$ID">
-                    $Answer
-                </p>
+            <dd class="faq__answer" id="answer-$ID">
+                $Answer
             </dd>
         <% end_loop %>
     </dl>

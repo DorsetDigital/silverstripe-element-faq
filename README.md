@@ -1,4 +1,7 @@
 # silverstripe-element-faq
+
+> **Maintenance status:** This module is no longer actively maintained and targets older Silverstripe projects. For new implementations, use [Biff Bang Pow's Silverstripe Accordion Element](https://github.com/BiffBangPow/silverstripe-accordion-element) instead. It uses native HTML `<details>` elements for accessible expand/collapse behaviour and supports optional integration with [Silverstripe Schema Manager](https://github.com/DorsetDigital/silverstripe-schema-manager) for FAQ structured data. Existing installations can continue using this module, but no automatic migration path is provided.
+
 Adds a collapsing FAQ block to a page
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE.md)
